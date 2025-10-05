@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -27,7 +27,8 @@
             <!--<li><a href="#blog"><i class="fas fa-blog"></i> Blog</a></li>-->
             <li><a href="#organization"><i class="fas fa-sitemap"></i> Organization Chart</a></li>
             <li><a href="#news"><i class="fas fa-newspaper"></i> News & Updates</a></li>
-            <li><a href="#application"><i class="fas fa-edit"></i> Application Form</a></li>
+	    <li><a href="#verification"><i class="fas fa-user-check"></i> Update Profile</a></li>
+            <!--<li><a href="#application"><i class="fas fa-edit"></i> Application Form</a></li>-->
             <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
         </ul>
     </div>
@@ -88,7 +89,7 @@
     
     <!-- Call-to-Action Buttons -->
     <div class="cta-buttons">
-    	<a href="#application" class="btn primary-btn sidebar-menu-link">Join Now</a>
+    	<!--<a href="#application" class="btn primary-btn sidebar-menu-link">Join Now</a>-->
     	<a href="#news" class="btn secondary-btn sidebar-menu-link">Latest News</a>
     </div>
     
@@ -249,6 +250,32 @@
                 </ol>
             </div>
         </section>
+
+<!-- Member Verification Section -->
+<section id="verification" class="content-section">
+    <div class="form-header">
+        <h1><i class="fas fa-user-check"></i> Pembaharuan Keahlian</h1>
+        <p>Hanya untuk ahli yang berdaftar pada sidang 2024/25 sahaja</p>
+    </div>
+    
+    <div class="verification-container">
+        <div class="verification-form">
+            <div class="form-group">
+                <label for="studentId">ID Pelajar (No. Matrik)</label>
+                <input type="text" id="studentId" class="form-control" placeholder="Contoh: 2240478" required>
+                <small class="form-text">Masukkan nombor matrik anda dengan betul</small>
+            </div>
+            
+            <div class="form-actions">
+                <button type="button" id="verifyBtn" class="btn verify-button">Semak Keahlian</button>
+            </div>
+        </div>
+        
+        <div id="verificationResult" class="verification-result" style="display: none;">
+            <!-- Result will be shown here -->
+        </div>
+    </div>
+</section>
         
         <!-- Application Form Section -->
         <section id="application" class="content-section">
@@ -307,7 +334,7 @@
                                 <option value="Tuah">Tuah</option>
                                 <option value="Kasturi">Kasturi</option>
                                 <option value="Lembah">Lembah</option>
-                                <option value="Luar Kampus">Luar Kampus</option>
+				<option value="Luar Kampus">Luar Kampus</option>
                             </select>
                         </div>
                         <div class="form-group">
@@ -340,20 +367,20 @@
                         </div>
                     </div>
 
-                    <h2>Soalan Tambahan</h2>
-                    <div class="form-group">
+                    <!--<h2>Soalan Tambahan</h2>-->
+                    <!--<div class="form-group">
                         <label for="reason">Mengapakah anda berminat untuk menyertai Badan Pelajar ini?</label>
                         <textarea id="reason" name="reason" rows="4" required></textarea>
-                    </div>
-                    <div class="form-group">
+                    </div>--
+                    <!--<div class="form-group">
                         <label for="strengthsWeaknesses">Apakah kelebihan anda yang boleh disumbangkan?</label>
                         <textarea id="strengthsWeaknesses" name="strengthsWeaknesses" rows="4" required></textarea>
-                    </div>
+                    </div>-->
                 </div>
 
                 <div class="checkbox-group">
                     <input type="checkbox" id="agreeTerms" name="agreeTerms" required>
-                    <label for="agreeTerms">Saya akan memberikan komitmen yang sepenuhnya jika terpilih dan tertakluk bawah Perlembagaan Badan Pelajar ini.</label>
+                    <label for="agreeTerms">Saya akan memberikan komitmen yang sepenuhnya dalam menjadi ahli kelab dan tertakluk bawah Perlembagaan Badan Pelajar ini.</label>
                 </div>
             
                 <div class="form-actions">
@@ -633,6 +660,27 @@
             </div>
         </section>
     </div>
+
+<!-- Announcement Modal -->
+<div id="announcementModal" class="modal" style="display: flex;">
+    <div class="modal-content announcement-modal">
+        <div class="announcement-header">
+            <h2><i class="fas fa-bullhorn"></i> Pengumuman Penting</h2>
+            <button id="closeAnnouncement" class="close-btn">&times;</button>
+        </div>
+        <div class="announcement-body">
+            <div class="announcement-icon">
+                <i class="fas fa-info-circle"></i>
+            </div>
+            <h3>Permohonan Keahlian Telah Ditutup</h3>
+            <p>Buat masa ini, permohonan keahlian baharu untuk Kelab Badminton UPNM telah ditutup. Sila ikuti perkembangan kami untuk maklumat pembukaan permohonan pada sesi akan datang.</p>
+            <p>Terima kasih atas minat anda.</p>
+        </div>
+        <div class="announcement-footer">
+            <button id="confirmAnnouncement" class="btn modal-button">Saya Faham</button>
+        </div>
+    </div>
+</div>
 
     <script src="script.js"></script>
 
