@@ -907,6 +907,182 @@ body {
     100% { transform: rotate(360deg); }
 }
 
+/* Verification Section Styles */
+.verification-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.verification-form {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    border-left: 4px solid #3498db;
+    margin-bottom: 30px;
+}
+
+.verify-button {
+    background: #3498db;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+}
+
+.verify-button:hover {
+    background: #2980b9;
+}
+
+.verification-result {
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    animation: fadeIn 0.5s ease;
+}
+
+.success-result {
+    background: #d4edda;
+    border: 2px solid #c3e6cb;
+    color: #155724;
+}
+
+.error-result {
+    background: #f8d7da;
+    border: 2px solid #f5c6cb;
+    color: #721c24;
+}
+
+.result-icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.result-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.result-message {
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.update-profile-btn {
+    margin-bottom: 10px;
+    background: #27ae60;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.update-profile-btn:hover {
+    background: #219a52;
+    color: white;
+}
+
+.form-text {
+    color: #6c757d;
+    font-size: 0.875rem;
+    margin-top: 5px;
+    display: block;
+}
+
+/* Readonly field styles */
+.form-control[readonly] {
+    background-color: #f8f9fa !important;
+    color: #6c757d !important;
+    cursor: not-allowed !important;
+    border-color: #e0e0e0 !important;
+}
+
+.form-control[readonly]:focus {
+    border-color: #e0e0e0 !important;
+    box-shadow: none !important;
+}
+
+/* Announcement Modal Styles */
+.announcement-modal {
+    max-width: 500px;
+    text-align: center;
+}
+
+.announcement-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px 10px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.announcement-header h2 {
+    color: #2c3e50;
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.announcement-header h2 i {
+    color: #e74c3c;
+    margin-right: 10px;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #7f8c8d;
+    cursor: pointer;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-btn:hover {
+    color: #e74c3c;
+}
+
+.announcement-body {
+    padding: 30px 25px;
+}
+
+.announcement-icon {
+    font-size: 4rem;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+.announcement-body h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.announcement-body p {
+    color: #5d6d7e;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.announcement-footer {
+    padding: 15px 25px 25px;
+    border-top: 2px solid #f0f0f0;
+}
+
+/* Make sure modal is on top */
+.modal {
+    z-index: 3000;
+}
+
 /* Responsive adjustments */
 @media (max-width: 1024px) {
     .contact-content {
@@ -1084,6 +1260,22 @@ body {
     
     .contact-info h3,
     .contact-form h3 {
+        font-size: 1.3rem;
+    }
+
+    .verification-container {
+        padding: 20px;
+    }
+    
+    .verification-form {
+        padding: 20px;
+    }
+    
+    .result-icon {
+        font-size: 2.5rem;
+    }
+    
+    .result-title {
         font-size: 1.3rem;
     }
 }
