@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/smash_logo.png" type="image/x-icon">
     <title>SMASH UPNM</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesCalonMT.css">
 </head>
 <body>
     <!-- Mobile menu button -->
@@ -21,14 +22,10 @@
         </div>
         <ul class="sidebar-menu">
             <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
-            <!--<li><a href="#about"><i class="fas fa-user"></i> About</a></li>-->
-            <!--<li><a href="#services"><i class="fas fa-cog"></i> Services</a></li>-->
-            <!--<li><a href="#portfolio"><i class="fas fa-briefcase"></i> Portfolio</a></li>-->
-            <!--<li><a href="#blog"><i class="fas fa-blog"></i> Blog</a></li>-->
             <li><a href="#organization"><i class="fas fa-sitemap"></i> Organization Chart</a></li>
             <li><a href="#news"><i class="fas fa-newspaper"></i> News & Updates</a></li>
-	    <li><a href="#verification"><i class="fas fa-user-check"></i> Update Profile</a></li>
-            <!--<li><a href="#application"><i class="fas fa-edit"></i> Application Form</a></li>-->
+	    <!-- Add this to the sidebar menu (around line 45) -->
+	    <li><a href="#pencalonan-mt"><i class="fas fa-users"></i> Pencalonan MT</a></li>
             <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
         </ul>
     </div>
@@ -52,7 +49,7 @@
         <div class="feature-card">
             <i class="fas fa-users"></i>
             <h4>Active Community</h4>
-            <p>Join 100+ passionate badminton players</p>
+            <p>Join 150+ passionate badminton players</p>
         </div>
         <div class="feature-card">
             <i class="fas fa-trophy"></i>
@@ -74,7 +71,7 @@
     <!-- Stats Counter -->
     <div class="stats-container">
         <div class="stat-item">
-            <div class="stat-number" data-count="118">0</div>
+            <div class="stat-number" data-count="161">0</div>
             <div class="stat-label">Active Members</div>
         </div>
         <div class="stat-item">
@@ -105,44 +102,6 @@
     </div>-->
 </section>
         
-        <!-- About section -->
-        <section id="about" class="content-section">
-            <h2>About Us</h2>
-            <p>We are a creative team dedicated to building amazing web experiences.</p>
-            
-            <h3>Our Team</h3>
-            <p>Meet our talented team members who work hard to deliver exceptional results.</p>
-        </section>
-        
-        <!-- Services section -->
-        <section id="services" class="content-section">
-            <h2>Our Services</h2>
-            <p>We offer a wide range of services to help your business grow.</p>
-            
-            <h3>Web Development</h3>
-            <p>Custom web applications built with modern technologies.</p>
-            
-            <h3>Digital Marketing</h3>
-            <p>Strategies to increase your online presence and reach.</p>
-        </section>
-        
-        <!-- Portfolio section -->
-        <section id="portfolio" class="content-section">
-            <h2>Our Portfolio</h2>
-            <p>Take a look at some of our recent projects and success stories.</p>
-            
-            <h3>Project Examples</h3>
-            <p>We've worked with businesses of all sizes across various industries.</p>
-        </section>
-        
-        <!-- Blog section -->
-        <section id="blog" class="content-section">
-            <h2>Latest Blog Posts</h2>
-            <p>Stay updated with our latest insights and industry news.</p>
-            
-            <h3>Recent Articles</h3>
-            <p>Our team regularly shares knowledge and experiences.</p>
-        </section>
         
         <!-- Contact section -->
 <!-- Contact Section -->
@@ -215,196 +174,45 @@
         </div>
     </div>
 </section>
-        
-        <!-- Products Section -->
-        <section id="products" class="content-section">
-            <h2>Our Products</h2>
-            <p>Discover our range of innovative products designed to solve your business challenges.</p>
-            
-            <h3>Product Categories</h3>
-            <ul>
-                <li>Software Solutions</li>
-                <li>Consulting Services</li>
-                <li>Training Programs</li>
-            </ul>
-            
-            <div class="code-block">
-                &lt;section id="products" class="content-section"&gt;<br>
-                &nbsp;&nbsp;&lt;h2&gt;Our Products&lt;/h2&gt;<br>
-                &nbsp;&nbsp;&lt;p&gt;Your content goes here...&lt;/p&gt;<br>
-                &lt;/section&gt;
-            </div>
-        </section>
-        
-        <!-- Testimonials Section -->
-        <section id="testimonials" class="content-section">
-            <h2>Client Testimonials</h2>
-            <p>See what our clients have to say about working with us.</p>
-            
-            <div class="step">
-                <h3>Adding This Section Required:</h3>
-                <ol>
-                    <li>Creating this section with id="testimonials"</li>
-                    <li>Optionally adding a menu item in the sidebar</li>
-                    <li>The JavaScript automatically handles the navigation</li>
-                </ol>
-            </div>
-        </section>
 
-<!-- Member Verification Section -->
-<section id="verification" class="content-section">
+<!-- Pencalonan MT Section -->
+<section id="pencalonan-mt" class="content-section">
     <div class="form-header">
-        <h1><i class="fas fa-user-check"></i> Pembaharuan Keahlian</h1>
-        <p>Hanya untuk ahli yang berdaftar pada sidang 2024/25 sahaja</p>
+        <h1><i class="fas fa-users"></i> Pencalonan Majlis Tertinggi</h1>
+        <p>Borang pencalonan untuk ahli Majlis Tertinggi SMASH UPNM sesi 2025/2026</p>
     </div>
     
-    <div class="verification-container">
-        <div class="verification-form">
-            <div class="form-group">
-                <label for="studentId">ID Pelajar (No. Matrik)</label>
-                <input type="text" id="studentId" class="form-control" placeholder="Contoh: 2240478" required>
-                <small class="form-text">Masukkan nombor matrik anda dengan betul</small>
-            </div>
-            
-            <div class="form-actions">
-                <button type="button" id="verifyBtn" class="btn verify-button">Semak Keahlian</button>
-            </div>
+	<div class="step">
+            <h3>Maklumat Penting:</h3>
+            <ul>
+                <li>Pastikan semua maklumat diisi dengan betul dan tepat</li>
+                <li>Borang ini hanya untuk pencalonan Majlis Tertinggi sesi 2025/2026</li>
+                <li>Pastikan anda memenuhi syarat-syarat yang ditetapkan</li>
+                <li>Hubungi kami sekiranya terdapat sebarang masalah</li>
+            </ul>
         </div>
-        
-        <div id="verificationResult" class="verification-result" style="display: none;">
-            <!-- Result will be shown here -->
+
+    <div class="form-container">
+        <div class="google-form-wrapper">
+            <iframe 
+                src="https://docs.google.com/forms/d/e/1FAIpQLSceeQXbDknv9AFSN9pGrBduvv9CQE1K6VUV8IOrIB1HIKm7CQ/viewform?embedded=true" 
+                width="100%" 
+                height="1200" 
+                frameborder="0" 
+                marginheight="0" 
+                marginwidth="0"
+                class="responsive-iframe"
+                title="Pencalonan Majlis Tertinggi SMASH UPNM">
+                Loading…
+            </iframe>
         </div>
     </div>
 </section>
         
-        <!-- Application Form Section -->
-        <section id="application" class="content-section">
-            <div class="form-header">
-                <h1><i class="fas fa-edit"></i> Borang Permohonan Keahlian</h1>
-                <p>Sila isi dengan betul dan tepat</p>
-            </div>
-            
-            <form id="applicationForm" class="application-form">
-                <div class="form-section">
-                    <h2>Maklumat Pelajar</h2>
-                    <div class="form-grid">
-                        <div class="form-group">
-                            <label for="fullName">Nama Penuh</label>
-                            <input type="text" id="fullName" name="fullName" placeholder="SEMUA HURUF BESAR" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="matricNumber">Nombor Matrik</label>
-                            <input type="text" id="matricNumber" name="matricNumber" placeholder="125XXXX @ 725XXXX" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Emel Al Fateh</label>
-                            <input type="email" id="email" name="email" placeholder="125XXXX / 725XXXX@alfateh.upnm.edu.my" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Nombor Telefon</label>
-                            <input type="tel" id="phone" name="phone" placeholder="Tanpa sengkang (-)" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="room">Nombor Bilik</label>
-                            <input type="text" id="room" name="room" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="status">Status Pelajar</label>
-                            <select id="status" name="status">
-                                <option value="">Sila Pilih</option>
-                                <option value="Awam">Awam</option>
-				<option value="PALAPES">PALAPES</option>
-				<option value="Kadet">Kadet</option>
-                            </select>
-                        </div>
-                        <div class="form-group" id="no" style="display: none;">
-                            <label for="noaskar">Nombor Badan/Tentera</label>
-                            <input type="text" id="noaskar" name="noaskar">
-                        </div>
-                    </div>
-                
-                    <h2>Maklumat Akademik</h2>
-                    <div class="form-grid">
-                        <div class="form-group">
-                            <label for="college">Kolej</label>
-                            <select id="college" name="college" required>
-                                <option value="">Sila Pilih</option>
-                                <option value="Jebat">Jebat</option>
-                                <option value="Srikandi">Srikandi</option>
-                                <option value="Tuah">Tuah</option>
-                                <option value="Kasturi">Kasturi</option>
-                                <option value="Lembah">Lembah</option>
-				<option value="Luar Kampus">Luar Kampus</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="faculty">Fakulti</label>
-                            <select id="faculty" name="faculty" required>
-                                <option value="">Sila Pilih</option>
-                                <option value="AKP">Akademi Kecergasan Pertahanan</option>
-                                <option value="FSTP">Fakulti Sains dan Teknologi Pertahanan</option>
-                                <option value="FPPP">Fakulti Pengurusan dan Pengajian Pertahanan</option>
-                                <option value="PB">Pusat Bahasa</option>
-                                <option value="APPI">Akademi Pertahanan Pengajian Islam</option>
-                                <option value="FKJ">Fakulti Kejuruteraan</option>
-                                <option value="Pusat Asasi">Pusat Asasi</option>
-                            </select>
-                        </div>
-                        <div class="form-group" id="yearGroup" style="display: none;">
-                            <label for="year">Tahun</label>
-                            <select id="year" name="year">
-                                <option value="">Sila Pilih</option>
-                                <option value="Tahun 1">Tahun 1</option>
-                                <option value="Tahun 2">Tahun 2</option>
-                                <option value="Tahun 3">Tahun 3</option>
-                                <option value="Tahun 4">Tahun 4</option>
-                                <option value="Tahun 5">Tahun 5</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="course">Jurusan</label>
-                            <input type="text" id="course" name="course" required>
-                        </div>
-                    </div>
-
-                    <!--<h2>Soalan Tambahan</h2>-->
-                    <!--<div class="form-group">
-                        <label for="reason">Mengapakah anda berminat untuk menyertai Badan Pelajar ini?</label>
-                        <textarea id="reason" name="reason" rows="4" required></textarea>
-                    </div>--
-                    <!--<div class="form-group">
-                        <label for="strengthsWeaknesses">Apakah kelebihan anda yang boleh disumbangkan?</label>
-                        <textarea id="strengthsWeaknesses" name="strengthsWeaknesses" rows="4" required></textarea>
-                    </div>-->
-                </div>
-
-                <div class="checkbox-group">
-                    <input type="checkbox" id="agreeTerms" name="agreeTerms" required>
-                    <label for="agreeTerms">Saya akan memberikan komitmen yang sepenuhnya dalam menjadi ahli kelab dan tertakluk bawah Perlembagaan Badan Pelajar ini.</label>
-                </div>
-            
-                <div class="form-actions">
-                    <button type="submit" class="btn submit-button">Mohon Keahlian</button>
-                </div>
-            </form>
-
-            <!-- Success Modal -->
-            <div id="successModal" class="modal">
-                <div class="modal-content">
-                    <div class="success-icon">
-                        <i class="fas fa-check-circle"></i>
-                    </div>
-                    <h2>Application Submitted Successfully!</h2>
-                    <p>Thank you for your application. We will review it and get back to you soon.</p>
-                    <button id="closeModal" class="btn modal-button">Close</button>
-                </div>
-            </div>
-        </section>
-        
         <!-- Organization Chart Section -->
         <section id="organization" class="content-section">
 <div class="home-container">
-    <h2 class="section-title">Organisation Chart</h2>
+    <h2 class="section-title">Organisation Chart 2025/26</h2>
 </div>
             <h4>Meet the leadership team that drives our organization forward.</h4>
             
@@ -429,28 +237,33 @@
                         <h4 class="org-level-title">Majlis Tertinggi</h4>
                         <div class="management-row">
                             <div class="manager-card">
-                                <img src="assets/PRES.jpg" alt="CFO" class="profile-img">
-                                <h4>Mohamad Haikal Zhahirin bin Ab Rasid</h4>
+                                <img src="assets/.jpg" alt="" class="profile-img">
+				<h4>VACANT</h4>
+                                <!--<h4></h4>-->
                                 <p class="position">Presiden</p>
                             </div>
                             <div class="manager-card">
-                                <img src="assets/TPRES.jpeg" alt="COO" class="profile-img">
-                                <h4>Norhidham bin Norhisham</h4>
+                                <img src="assets/.jpeg" alt="" class="profile-img">
+				<h4>VACANT</h4>
+                                <!--<h4></h4>-->
                                 <p class="position">Timbalan Presiden</p>
                             </div>
                             <div class="manager-card">
-                                <img src="assets/SU.jpeg" alt="CMO" class="profile-img">
-                                <h4>Siti Insyirah binti Mohd Isnan</h4>
+                                <img src="assets/.jpeg" alt="" class="profile-img">
+				<h4>VACANT</h4>
+                                <!--<h4></h4>-->
                                 <p class="position">Setiausaha Agung</p>
                             </div>
                             <div class="manager-card">
-                                <img src="assets/TSU.jpeg" alt="COO" class="profile-img">
-                                <h4>Muhammad Taufiq bin Rosdan</h4>
+                                <img src="assets/.jpeg" alt="" class="profile-img">
+				<h4>VACANT</h4>
+                                <!--<h4></h4>-->
                                 <p class="position">Timbalan Setiausaha Agung</p>
                             </div>
                             <div class="manager-card">
                                 <img src="" alt="" class="profile-img">
-                                <h4>Muhammad Haiqal bin Mohd Shukur</h4>
+				<h4>VACANT</h4>
+                                <!--<h4></h4>-->
                                 <p class="position">Bendahari Kehormat</p>
                             </div>
                         </div>
@@ -469,137 +282,184 @@
                 </ul>
             </div>-->
             <div class="step">
-                <h3>Senarai Ahli</h3>
-                <!--<p>Berikut adalah senarai penuh ahli kelab badminton UPNM:</p>-->
+                <h3>Official Members</h3>
+                <!--<p></p>-->
                 
                 <div class="table-container">
                     <table class="member-table">
                         <thead>
                             <tr>
                                 <th>#</th>
-                                <th>No. Matrik</th>
-                                <th>Nama Penuh</th>
+                                <th>Matric Num.</th>
+                                <th>Full Name</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr><td>1</td><td>2240478</td><td>‘ARIFAH MAISARAH BINTI AHMAD SAFARUDDIN</td></tr>
-                            <tr><td>2</td><td>2240483</td><td>AIFA NUR AMANI BINTI SHAIDON</td></tr>
-                            <tr><td>3</td><td>2240232</td><td>AMIRA BINTI ASRI</td></tr>
-                            <tr><td>4</td><td>2240418</td><td>CHE NUR IZZATI BINTI CHE MOHD ZULKUFLY</td></tr>
-                            <tr><td>5</td><td>2241033</td><td>HARIESHA A/P SIVA BALLAN</td></tr>
-                            <tr><td>6</td><td>1240636</td><td>NUR AINA NATASHA BINTI YUSMAN</td></tr>
-                            <tr><td>7</td><td>1240294</td><td>NUR ALEYA FATIHAH BINTI AZLI</td></tr>
-                            <tr><td>8</td><td>1240301</td><td>NUR AZIZIAH MOHD HISHAMMUDIN</td></tr>
-                            <tr><td>9</td><td>2240076</td><td>NUR IMTINAN AISYAH BT MOHD RIDZUWAN</td></tr>
-                            <tr><td>10</td><td>2240324</td><td>NUR SYAZA IWANA BINTI KODRI</td></tr>
-                            <tr><td>11</td><td>2230218</td><td>NUR'AINA NAJIHAH BINTI MOHAMED ROZI</td></tr>
-                            <tr><td>12</td><td>2240480</td><td>NURUL AFIQAH NABILA BINTI JUMAADI</td></tr>
-                            <tr><td>13</td><td>2230810</td><td>RANI HAZWANI BINTI HAFIZI</td></tr>
-                            <tr><td>14</td><td>1240806</td><td>SITI INSYIRAH BT MOHD ISNAN</td></tr>
-                            <tr><td>15</td><td>2240487</td><td>SITI QISTINA SYAKIRAH BINTI NAZRON</td></tr>
-                            <tr><td>16</td><td>7240327</td><td>IVAN CHONG ZHE WEI</td></tr>
-                            <tr><td>17</td><td>7240023</td><td>MUHAMMAD DANIEL AIMAN BIN ZAIDI</td></tr>
-                            <tr><td>18</td><td>7240158</td><td>MUHAMMAD HAIQAL BIN MOHD SHUKUR</td></tr>
-                            <tr><td>19</td><td>7240181</td><td>NORHIDHAM BIN NORHISHAM</td></tr>
-                            <tr><td>20</td><td>2241073</td><td>LAILATI BINTI MOHD</td></tr>
-                            <tr><td>21</td><td>7210133</td><td>MUHAMMAD IKRAM BIN SHAIFUL ASGHAR</td></tr>
-                            <tr><td>22</td><td>2241076</td><td>NORLEN BINTI OTHMAN</td></tr>
-                            <tr><td>23</td><td>7240063</td><td>IZZAH 'ATHIRAH BINTI AZHAR</td></tr>
-                            <tr><td>24</td><td>7240314</td><td>MYA DURRATUN MARSYA BINTI MUHAMMAD YUSRI</td></tr>
-                            <tr><td>25</td><td>7240191</td><td>NUR FARISYA HANANI BINTI EEIN FIRDAUS</td></tr>
-                            <tr><td>26</td><td>7230296</td><td>NUR SYAMIMI BATRISYIA BINTI NOOR EFANDI</td></tr>
-                            <tr><td>27</td><td>7240266</td><td>NURUL AMIRAH BINTI NORRIMI</td></tr>
-                            <tr><td>28</td><td>7240100</td><td>PUTRI LYANA ATHIRAH BINTI MOHD NAZERIY</td></tr>
-                            <tr><td>29</td><td>7240102</td><td>REENA JEYSRI KALAIARASAN</td></tr>
-                            <tr><td>30</td><td>7240105</td><td>SOFEAH MAISARAH BINTI SALMANSHAHAIR</td></tr>
-                            <tr><td>31</td><td>2240739</td><td>ADRIAN LEE KAR XEE</td></tr>
-                            <tr><td>32</td><td>2240750</td><td>AHMAD LUQMAN BIN ROSLI</td></tr>
-                            <tr><td>33</td><td>2240788</td><td>AMAR HABIB AL-AJMI BIN HAMIDUN</td></tr>
-                            <tr><td>34</td><td>2240082</td><td>AZRYL ANNUAR BIN NORAMIN</td></tr>
-                            <tr><td>35</td><td>2240196</td><td>DANISH EMMIR BIN SAIFUL ZAHRY</td></tr>
-                            <tr><td>36</td><td>2230381</td><td>MOHAMAD HAIKAL ZHAHIRIN BIN AB RASID</td></tr>
-                            <tr><td>37</td><td>2240670</td><td>MUHAMAD NASRUL BIN NASARUDIN</td></tr>
-                            <tr><td>38</td><td>2240754</td><td>MUHAMMAD ABID BIN AZHAR</td></tr>
-                            <tr><td>39</td><td>2240742</td><td>MUHAMMAD AFIQ BIN SALLEH</td></tr>
-                            <tr><td>40</td><td>2240204</td><td>MUHAMMAD AKMAL BIN MOHD HILMI</td></tr>
-                            <tr><td>41</td><td>2240629</td><td>MUHAMMAD ALIF IMRAN BIN RASHID</td></tr>
-                            <tr><td>42</td><td>2240951</td><td>MUHAMMAD ASHRUL BIN YUSRIZAM</td></tr>
-                            <tr><td>43</td><td>2240357</td><td>MUHAMMAD DARWISH ASHRAF BIN MUHD RIDZMAN</td></tr>
-                            <tr><td>44</td><td>2240673</td><td>MUHAMMAD HARRIS NAJMI BIN YUSNAIDI</td></tr>
-                            <tr><td>45</td><td>2240755</td><td>MUHAMMAD IQBAL DANIAL BIN MOHD ZUKRI</td></tr>
-                            <tr><td>46</td><td>2240554</td><td>MUHAMMAD IRFAN PUTRA BIN MUHAMMAD AZAMIN</td></tr>
-                            <tr><td>47</td><td>2240463</td><td>MUHAMMAD LUQMANUL HAKIM BIN AZMYE</td></tr>
-                            <tr><td>48</td><td>2230491</td><td>MUHAMMAD NURAMIRUL AFIQ BIN MAD AZHAR</td></tr>
-                            <tr><td>49</td><td>2240216</td><td>MUHAMMAD SYABIL ASNA BIN MOHMAD RASOOL</td></tr>
-                            <tr><td>50</td><td>2240470</td><td>MUHAMMAD SYAFIQ DANIAL BIN MOHD FAIZAL</td></tr>
-                            <tr><td>51</td><td>2240224</td><td>MUHAMMAD TAUFIQ BIN ROSDAN</td></tr>
-                            <tr><td>52</td><td>2240409</td><td>MUHAMMAD THAQIF DHIYAULHAQ BIN ZULHISHAM</td></tr>
-                            <tr><td>53</td><td>2241004</td><td>SUVANESH A/L PRAKESH</td></tr>
-                            <tr><td>54</td><td>2230137</td><td>YAP HAO YANG</td></tr>
-                            <tr><td>55</td><td>2230557</td><td>MOHAMAD SYAHBIL BIN BASRI</td></tr>
-                            <tr><td>56</td><td>2230282</td><td>MUHAMMAD LUQMAN HAKIMI BIN MOHD RADZUAN</td></tr>
-                            <tr><td>57</td><td>1250114</td><td>ALIFAH ILYANA BINTI EHSAN</td></tr>
-                            <tr><td>58</td><td>1250142</td><td>AZIHAH BINTI ABDUL LATIP</td></tr>
-                            <tr><td>59</td><td>1250174</td><td>FADLIN FARHANA BINTI FA'DZLI IKHWAN</td></tr>
-                            <tr><td>60</td><td>1250593</td><td>FATINI AFIQAH BINTI FAIRUL RIZAL</td></tr>
-                            <tr><td>61</td><td>1250198</td><td>IRDEENA AISYA BINTI MOHD ZAMRI</td></tr>
-                            <tr><td>62</td><td>1250405</td><td>NIMISSHA A/P SARAVANAN</td></tr>
-                            <tr><td>63</td><td>1250047</td><td>NIVASINI NANTHE GOPAL</td></tr>
-                            <tr><td>64</td><td>7250043</td><td>NORLIANA BINTI RIZAL</td></tr>
-                            <tr><td>65</td><td>1250429</td><td>NUR ARISSA MAISARAH BINTI HAFIZUL ARIFF</td></tr>
-                            <tr><td>66</td><td>1250438</td><td>NUR HIDAYAH BINTI HASSIM</td></tr>
-                            <tr><td>67</td><td>1250445</td><td>NUR NAZIRAH BINTI MUHAMAD NAZRI</td></tr>
-                            <tr><td>68</td><td>1250446</td><td>NUR QASEH ZADHIRAH BINTI MOHD ZAIPOL</td></tr>
-                            <tr><td>69</td><td>1250447</td><td>NUR QHAISARA BINTI MOHD ZAKI</td></tr>
-                            <tr><td>70</td><td>7250321</td><td>NUR UMAIRAH BINTI AZRUL AZMIR</td></tr>
-                            <tr><td>71</td><td>1250462</td><td>NURAFIQAH AINA SOFIYA BINTI ABDUL JEFRI</td></tr>
-                            <tr><td>72</td><td>1250749</td><td>NURFATIHAH BINTI MOHD KASSIM</td></tr>
-                            <tr><td>73</td><td>1250756</td><td>NURRIS ALYA BINTI ZULKAFLE</td></tr>
-                            <tr><td>74</td><td>1250760</td><td>NURUL ATIQAH SUMAIYAH BINTI MOHD NOOR IKHSAN</td></tr>
-                            <tr><td>75</td><td>1250511</td><td>SITI AIN SHAH BINTI MOHD DAHRONI</td></tr>
-                            <tr><td>76</td><td>1250539</td><td>WAN NUR AMIERA SYAMIMIE BINTI WAN RAHIM</td></tr>
-                            <tr><td>77</td><td>1250804</td><td>WAN NUR AUNI BINTI WAN ADNAN</td></tr>
-                            <tr><td>78</td><td>1250540</td><td>WAN NUR IMANINA BINTI WAN IKHWAN MUHAMMAD</td></tr>
-                            <tr><td>79</td><td>1250812</td><td>ZULAIKHA AYU NAJWA BINTI ZAKARIA</td></tr>
-                            <tr><td>80</td><td>7250286</td><td>ADY PUTRA BIN MOHD NADHIRIN</td></tr>
-                            <tr><td>81</td><td>7250294</td><td>DARWISY BAHIR BIN ALIF</td></tr>
-                            <tr><td>82</td><td>7250299</td><td>MUHAMMAD AKMAL NAJMI BIN KHAIRUDIN</td></tr>
-                            <tr><td>83</td><td>7250308</td><td>MUHAMMAD NABIL ASYRAF BIN MOHD MUHASA'AH</td></tr>
-                            <tr><td>84</td><td>1250551</td><td>ADAM FIRDAUS BIN ABD AZIZ</td></tr>
-                            <tr><td>85</td><td>1250581</td><td>AWENASH KUMAR A/L SATHIS KUMAR</td></tr>
-                            <tr><td>86</td><td>1250598</td><td>HAFEIY ZIKRULLAH BIN SHAMSHOR</td></tr>
-                            <tr><td>87</td><td>1250021</td><td>HARISHKARTHIK A/L MURALI</td></tr>
-                            <tr><td>88</td><td>1250599</td><td>HARITH AEIZUDIN BIN ITHNIN</td></tr>
-                            <tr><td>89</td><td>1250608</td><td>JOHN PROPHET A/L MOHAN KUMAR</td></tr>
-                            <tr><td>90</td><td>1250621</td><td>MOHAMAD ALI IMRAN BIN MOHD AL FARID</td></tr>
-                            <tr><td>91</td><td>1250044</td><td>MUHAMMAD SABUR BIN MUHAMMAD SIDDIQ</td></tr>
-                            <tr><td>92</td><td>1250793</td><td>SYAFIQ AZRIN BIN HAZRUL NAZRIN</td></tr>
-                            <tr><td>93</td><td>1250101</td><td>AHMAD ZULZIKRY HAIKAL BIN ZA'AHARI</td></tr>
-                            <tr><td>94</td><td>1250118</td><td>AMIR AMSYAR BIN JALILULAIR</td></tr>
-                            <tr><td>95</td><td>1250191</td><td>IBNU ALIF BIN MOHD SUKRI</td></tr>
-                            <tr><td>96</td><td>1250824</td><td>JITHINDRA A/L RAMAIS</td></tr>
-                            <tr><td>97</td><td>1250225</td><td>LUQMAN NUL-HAKIM BIN MOHAMAAD AIDI AMIN</td></tr>
-                            <tr><td>98</td><td>1250258</td><td>MUHAMAD TAUFIQ HIDAYAT BIN KARIM</td></tr>
-                            <tr><td>99</td><td>1250851</td><td>MUHAMMAD AQIL MIRZA BIN MOHD RADZI</td></tr>
-                            <tr><td>100</td><td>1250323</td><td>MUHAMMAD FARIS AIMAN BIN MOHD FAIZUL ANUAR</td></tr>
-                            <tr><td>101</td><td>1250361</td><td>MUHAMMAD NAQI HUSAINI BIN YUSRI</td></tr>
-                            <tr><td>102</td><td>1250483</td><td>PUTRA ALIF FAISAL BIN ABD HARIS</td></tr>
-                            <tr><td>103</td><td>1250847</td><td>SABARISH BRYANT ARUNASALAM</td></tr>
-                            <tr><td>104</td><td>7250329</td><td>KAVINESWARY A/P RAJANTIRAN</td></tr>
-                            <tr><td>105</td><td>7250243</td><td>NUR AMIRA NATASYA BINTI MOHD SYUHAIRY</td></tr>
-                            <tr><td>106</td><td>7250247</td><td>NUR AZLEEN BINTI LIMAT</td></tr>
-                            <tr><td>107</td><td>7250262</td><td>NURUL FATIHAH BINTI MAHADI</td></tr>
-                            <tr><td>108</td><td>7250272</td><td>RAFFI ASMIDA DANIA BINTI RAFFI ASMADI</td></tr>
-                            <tr><td>109</td><td>7250276</td><td>SITI NOR AINA SOFEA BINTI MARZUKI</td></tr>
-                            <tr><td>110</td><td>7250277</td><td>SRI NUR INSYIRAH BT MOHAMMAD MAZLAN</td></tr>
-                            <tr><td>111</td><td>7250081</td><td>AIMAN NAIM BIN MOHD KHAIR</td></tr>
-                            <tr><td>112</td><td>7250085</td><td>AMIR ZAKWAN BIN SUHAIMI</td></tr>
-                            <tr><td>113</td><td>7250134</td><td>MUHAMMAD HAIKAL BIN MOHD SAIFUL AZHAR</td></tr>
-                            <tr><td>114</td><td>7250224</td><td>MUHAMMAD HAZIQ BIN KHAIRUL ANUAR</td></tr>
-                            <tr><td>115</td><td>7250232</td><td>MUHAMMAD NURHIDAYAT BIN MOHD GHAZALI</td></tr>
-                            <tr><td>116</td><td>7250142</td><td>MUHAMMAD THAQIF BIN AZLI</td></tr>
-                            <tr><td>117</td><td>7250143</td><td>MUHAMMAD ZAIM MUMTAZ BIN MAT KHOSIM</td></tr>
-                            <tr><td>118</td><td>7250256</td><td>NUR KHALISH ADHA BIN KAMARUL HALIM</td></tr>
+<tr><td>1</td><td>1250021</td><td>HARISHKARTHIK A/L MURALI</td></tr>
+<tr><td>2</td><td>1250044</td><td>MUHAMMAD SABUR BIN MUHAMMAD SIDDIQ</td></tr>
+<tr><td>3</td><td>1250047</td><td>NIVASINI NANTHE GOPAL</td></tr>
+<tr><td>4</td><td>1250101</td><td>AHMAD ZULZIKRY HAIKAL BIN ZA’AHARI</td></tr>
+<tr><td>5</td><td>1250114</td><td>ALIFAH ILYANA BINTI EHSAN</td></tr>
+<tr><td>6</td><td>1250118</td><td>AMIR AMSYAR BIN JALILULAIR</td></tr>
+<tr><td>7</td><td>1250142</td><td>AZIHAH BINTI ABDUL LATIP</td></tr>
+<tr><td>8</td><td>1250174</td><td>FADLIN FARHANA BINTI FA’DZLI IKHWAN</td></tr>
+<tr><td>9</td><td>1250191</td><td>IBNU ALIF BIN MOHD SUKRI</td></tr>
+<tr><td>10</td><td>1250198</td><td>IRDEENA AISYA BINTI MOHD ZAMRI</td></tr>
+<tr><td>11</td><td>1250225</td><td>LUQMAN NUL-HAKIM BIN MOHAMAAD AIDI AMIN</td></tr>
+<tr><td>12</td><td>1250258</td><td>MUHAMAD TAUFIQ HIDAYAT BIN KARIM</td></tr>
+<tr><td>13</td><td>1250323</td><td>MUHAMMAD FARIS AIMAN BIN MOHD FAIZUL ANUAR</td></tr>
+<tr><td>14</td><td>1250361</td><td>MUHAMMAD NAQI HUSAINI BIN YUSRI</td></tr>
+<tr><td>15</td><td>1250405</td><td>NIMISSHA A/P SARAVANAN</td></tr>
+<tr><td>16</td><td>1250429</td><td>NUR ARISSA MAISARAH BINTI HAFIZUL ARIFF</td></tr>
+<tr><td>17</td><td>1250438</td><td>NUR HIDAYAH BINTI HASSIM</td></tr>
+<tr><td>18</td><td>1250445</td><td>NUR NAZIRAH BINTI MUHAMAD NAZRI</td></tr>
+<tr><td>19</td><td>1250446</td><td>NUR QASEH ZADHIRAH BINTI MOHD ZAIPOL</td></tr>
+<tr><td>20</td><td>1250447</td><td>NUR QHAISARA BINTI MOHD ZAKI</td></tr>
+<tr><td>21</td><td>1250462</td><td>NURAFIQAH AINA SOFIYA BINTI ABDUL JEFRI</td></tr>
+<tr><td>22</td><td>1250483</td><td>PUTRA ALIF FAISAL BIN ABD HARIS</td></tr>
+<tr><td>23</td><td>1250511</td><td>SITI AIN SHAH BINTI MOHD DAHRONI</td></tr>
+<tr><td>24</td><td>1250539</td><td>WAN NUR AMIERA SYAMIMIE BINTI WAN RAHIM</td></tr>
+<tr><td>25</td><td>1250540</td><td>WAN NUR IMANINA BINTI WAN IKHWAN MUHAMMAD</td></tr>
+<tr><td>26</td><td>1250551</td><td>ADAM FIRDAUS BIN ABD AZIZ</td></tr>
+<tr><td>27</td><td>1250581</td><td>AWENASH KUMAR A/L SATHIS KUMAR</td></tr>
+<tr><td>28</td><td>1250593</td><td>FATINI AFIQAH BINTI FAIRUL RIZAL</td></tr>
+<tr><td>29</td><td>1250598</td><td>HAFEIY ZIKRULLAH BIN SHAMSHOR</td></tr>
+<tr><td>30</td><td>1250599</td><td>HARITH AEIZUDIN BIN ITHNIN</td></tr>
+<tr><td>31</td><td>1250608</td><td>JOHN PROPHET A/L MOHAN KUMAR</td></tr>
+<tr><td>32</td><td>1250621</td><td>MOHAMAD ALI IMRAN BIN MOHD AL FARID</td></tr>
+<tr><td>33</td><td>1250749</td><td>NURFATIHAH BINTI MOHD KASSIM</td></tr>
+<tr><td>34</td><td>1250756</td><td>NURRIS ALYA BINTI ZULKAFLE</td></tr>
+<tr><td>35</td><td>1250760</td><td>NURUL ATIQAH SUMAIYAH BINTI MOHD NOOR IKHSAN</td></tr>
+<tr><td>36</td><td>1250793</td><td>SYAFIQ AZRIN BIN HAZRUL NAZRIN</td></tr>
+<tr><td>37</td><td>1250804</td><td>WAN NUR AUNI BINTI WAN ADNAN</td></tr>
+<tr><td>38</td><td>1250812</td><td>ZULAIKHA AYU NAJWA BINTI ZAKARIA</td></tr>
+<tr><td>39</td><td>1250824</td><td>JITHINDRA A/L RAMAIS</td></tr>
+<tr><td>40</td><td>1250847</td><td>SABARISH BRYANT ARUNASALAM</td></tr>
+<tr><td>41</td><td>1250851</td><td>MUHAMMAD AQIL MIRZA BIN MOHD RADZI</td></tr>
+<tr><td>42</td><td>7250043</td><td>NORLIANA BINTI RIZAL</td></tr>
+<tr><td>43</td><td>7250081</td><td>AIMAN NAIM BIN MOHD KHAIR</td></tr>
+<tr><td>44</td><td>7250085</td><td>AMIR ZAKWAN BIN SUHAIMI</td></tr>
+<tr><td>45</td><td>7250134</td><td>MUHAMMAD HAIKAL BIN MOHD SAIFUL AZHAR</td></tr>
+<tr><td>46</td><td>7250142</td><td>MUHAMMAD THAQIF BIN AZLI</td></tr>
+<tr><td>47</td><td>7250143</td><td>MUHAMMAD ZAIM MUMTAZ BIN MAT KHOSIM</td></tr>
+<tr><td>48</td><td>7250224</td><td>MUHAMMAD HAZIQ BIN KHAIRUL ANUAR</td></tr>
+<tr><td>49</td><td>7250232</td><td>MUHAMMAD NURHIDAYAT BIN MOHD GHAZALI</td></tr>
+<tr><td>50</td><td>7250243</td><td>NUR AMIRA NATASYA BINTI MOHD SYUHAIRY</td></tr>
+<tr><td>51</td><td>7250247</td><td>NUR AZLEEN BINTI LIMAT</td></tr>
+<tr><td>52</td><td>7250256</td><td>NUR KHALISH ADHA BIN KAMARUL HALIM</td></tr>
+<tr><td>53</td><td>7250262</td><td>NURUL FATIHAH BINTI MAHADI</td></tr>
+<tr><td>54</td><td>7250272</td><td>RAFFI ASMIDA DANIA BINTI RAFFI ASMADI</td></tr>
+<tr><td>55</td><td>7250276</td><td>SITI NOR AINA SOFEA BINTI MARZUKI</td></tr>
+<tr><td>56</td><td>7250277</td><td>SRI NUR INSYIRAH BT MOHAMMAD MAZLAN</td></tr>
+<tr><td>57</td><td>7250286</td><td>ADY PUTRA BIN MOHD NADHIRIN</td></tr>
+<tr><td>58</td><td>7250294</td><td>DARWISY BAHIR BIN ALIF</td></tr>
+<tr><td>59</td><td>7250299</td><td>MUHAMMAD AKMAL NAJMI BIN KHAIRUDIN</td></tr>
+<tr><td>60</td><td>7250308</td><td>MUHAMMAD NABIL ASYRAF BIN MOHD MUHASA'AH</td></tr>
+<tr><td>61</td><td>7250321</td><td>NUR UMAIRAH BINTI AZRUL AZMIR</td></tr>
+<tr><td>62</td><td>7250329</td><td>KAVINESWARY A/P RAJANTIRAN</td></tr>
+<tr><td>63</td><td>1250188</td><td>HARENDRAH A/L DESINGU</td></tr>
+<tr><td>64</td><td>1250247</td><td>MOHAMMAD WALDAN DANISH BIN MOHD ASWAD</td></tr>
+<tr><td>65</td><td>1250251</td><td>MUHAMAD AIMAN BIN CHE MAZNI</td></tr>
+<tr><td>66</td><td>1250408</td><td>NUHA BAZILAH BINTI AL AZIZI</td></tr>
+<tr><td>67</td><td>1250431</td><td>NUR ATIKAH BINTI AHMAD FAIZAL</td></tr>
+<tr><td>68</td><td>1250657</td><td>MUHAMMAD FALIKH AMRI BIN MOHD FAZLAN</td></tr>
+<tr><td>69</td><td>1250672</td><td>MUHAMMAD HAZIQ BIN HANAS</td></tr>
+<tr><td>70</td><td>1250871</td><td>VICKNESH SEGARAN A/L RAJA SEGARAN</td></tr>
+<tr><td>71</td><td>1250953</td><td>CHAN TING ERN</td></tr>
+<tr><td>72</td><td>1250979</td><td>DANUSH A/L JEGANATHAN</td></tr>
+<tr><td>73</td><td>1250989</td><td>DIYANA NATASYA BINTI DZULKIFLI</td></tr>
+<tr><td>74</td><td>1251063</td><td>KOH KEAN WEN</td></tr>
+<tr><td>75</td><td>1251071</td><td>LEE HUI TONG</td></tr>
+<tr><td>76</td><td>1251344</td><td>QARMIELA SEPHIA BINTI AGUSMAN</td></tr>
+<tr><td>77</td><td>1251345</td><td>QASEH IRIN BINTI AZMAN</td></tr>
+<tr><td>78</td><td>1251346</td><td>QASEH UMAIRAH BINTI ZUKI</td></tr>
+<tr><td>79</td><td>1251370</td><td>SHWETA LAXMI A/P SUBRAMANIAM</td></tr>
+<tr><td>80</td><td>1251460</td><td>CHOCO LOW</td></tr>
+<tr><td>81</td><td>1251482</td><td>GOH LOK JANE</td></tr>
+<tr><td>82</td><td>1251484</td><td>HEW ZHE YING</td></tr>
+<tr><td>83</td><td>1251629</td><td>SITI AMINAH BINTI MOHD AMIN</td></tr>
+<tr><td>84</td><td>1251639</td><td>AMIR ZAKWAN BIN SUHAIMI</td></tr>
+<tr><td>85</td><td>2220061</td><td>WONG YE HENG</td></tr>
+<tr><td>86</td><td>2220161</td><td>NG YAW PIN</td></tr>
+<tr><td>87</td><td>2230078</td><td>YUWARAAJ A/L PONNUSAMY</td></tr>
+<tr><td>88</td><td>2230168</td><td>NIK NUR SA'ADAH BINTI NIK AIDI</td></tr>
+<tr><td>89</td><td>2230631</td><td>7547941 AMEERSHAM BIN MOHD NAZRI</td></tr>
+<tr><td>90</td><td>2230833</td><td>NV/8709385 MUHAMMAD FUDAIL IRFAN BIN MUZAMMIR</td></tr>
+<tr><td>91</td><td>2240077</td><td>SITI NOR AISYAH BINTI ABDULLAH</td></tr>
+<tr><td>92</td><td>2240134</td><td>WAN AHMAD AFIF BIN WAN MUSTAPHA</td></tr>
+<tr><td>93</td><td>2240217</td><td>NUR AMIRAH MIRZA BINTI IBRAHIM</td></tr>
+<tr><td>94</td><td>2240296</td><td>MUHAMMAD NUR EIZWAN BIN BAHARUDIN</td></tr>
+<tr><td>95</td><td>2240357</td><td>NV/8710203 MUHAMMAD DARWISH ASHRAF BIN MUHD RIDZMAN</td></tr>
+<tr><td>96</td><td>2240413</td><td>TUAN HAMIZAN SYAZWAN BIN HAZLI</td></tr>
+<tr><td>97</td><td>2240415</td><td>VESHAALAN KUMAR</td></tr>
+<tr><td>98</td><td>2240503</td><td>ALLYSHA HAZIQA BINTI HISHAMUDDIN</td></tr>
+<tr><td>99</td><td>2240569</td><td>NUR ALEEZA BINTI AZMY</td></tr>
+<tr><td>100</td><td>2240571</td><td>NUR AMNAH NAFISAH BINTI ARIFIN</td></tr>
+<tr><td>101</td><td>2240601</td><td>7806638 NUR DINI AYUNI BINTI JAFRY DIN</td></tr>
+<tr><td>102</td><td>2240618</td><td>KHOR XUE LING</td></tr>
+<tr><td>103</td><td>2240713</td><td>3017906 SYED AKMAL RIDZUAN BIN SYED AZMI</td></tr>
+<tr><td>104</td><td>2240719</td><td>7549697 MUHAMMAD IRFAN NAIM BIN AMINUDDIN</td></tr>
+<tr><td>105</td><td>2240887</td><td>MEESHAJIT KAUR A/P HARCHARANJIT SINGH</td></tr>
+<tr><td>106</td><td>2240917</td><td>SITI FAIRUS BINTI SEHAK</td></tr>
+<tr><td>107</td><td>2241070</td><td>ALIFF DANIAL AL-HADI BIN AHMAD KHARIRI AL-HADI</td></tr>
+<tr><td>108</td><td>2250053</td><td>ULFA BINTI FADZLAN SHAHIDI</td></tr>
+<tr><td>109</td><td>2250285</td><td>ANIS QISTINA BT MD KHAIR</td></tr>
+<tr><td>110</td><td>2250322</td><td>NG ZHI YEE</td></tr>
+<tr><td>111</td><td>2250505</td><td>NUR BATRISYIA HANNAH BINTI MOHD AZHAR</td></tr>
+<tr><td>112</td><td>2250508</td><td>NUR IRDHINA KHAIRI</td></tr>
+<tr><td>113</td><td>2250785</td><td>ANIESSA SIVAKUMAR</td></tr>
+<tr><td>114</td><td>2251005</td><td>YANGNURAISHAKINAH BINTI ROSLEE</td></tr>
+<tr><td>115</td><td>2251103</td><td>SITI NORSHAHIRA BINTI ROSLI</td></tr>
+<tr><td>116</td><td>2251172</td><td>MUHAMMAD IMAN ARIF BIN YUSRI</td></tr>
+<tr><td>117</td><td>2251340</td><td>SITI NOR ANTASHA BINTI TAN MUHAMMAD FUA'AD</td></tr>
+<tr><td>118</td><td>2251348</td><td>SYAZADINI ATIQAH BINTI MOHD SHAHRIL</td></tr>
+<tr><td>119</td><td>2251425</td><td>NOR ARFAN BIN NORAZROL</td></tr>
+<tr><td>120</td><td>2251446</td><td>NURHAYATY BINTI ABDUL MUTALIB</td></tr>
+<tr><td>121</td><td>2251466</td><td>SYAMSUL NIZAM BIN FADZIL</td></tr>
+<tr><td>122</td><td>2251468</td><td>UMAR BIN MALADY @ ZULKIFLI</td></tr>
+<tr><td>123</td><td>2251537</td><td>NUR ASMA' BINTI OMAR</td></tr>
+<tr><td>124</td><td>2251538</td><td>NUR HAZWANI BINTI HASHIM</td></tr>
+<tr><td>125</td><td>2251540</td><td>NUR HUZAIFAH HUDA BINTI MD ARIS</td></tr>
+<tr><td>126</td><td>2251542</td><td>NURBANIN HUMAIRA BINTI NORAZMAN</td></tr>
+<tr><td>127</td><td>2251558</td><td>ANGGUN NADHILAH BINTI ABD</td></tr>
+<tr><td>128</td><td>2251627</td><td>NORMIRA BINTI L.OSMAN</td></tr>
+<tr><td>129</td><td>2251654</td><td>SITI NUR NATASYA BINTI MD AKHIR</td></tr>
+<tr><td>130</td><td>2251657</td><td>SYAZA NURQASRINA BINTI SYARUL NIZAM</td></tr>
+<tr><td>131</td><td>2251735</td><td>NUR ANIS AMEERA BINTI MOHD ASRI</td></tr>
+<tr><td>132</td><td>7240327</td><td>IVAN CHONG ZHE WEI</td></tr>
+<tr><td>133</td><td>7240399</td><td>NUR AQILAH BINTI MOHAMAD ‘ASRI</td></tr>
+<tr><td>134</td><td>7250084</td><td>ALYA DANIA BINTI NOOR KHAIRI</td></tr>
+<tr><td>135</td><td>7250086</td><td>ARISHA HANI BINTI AZMI</td></tr>
+<tr><td>136</td><td>7250380</td><td>MUHAMMAD EMAN EMER BIN SHAHARUDIN</td></tr>
+<tr><td>137</td><td>7250428</td><td>MOHAMAD HARITH HAZIQ BIN ABDULLAH</td></tr>
+<tr><td>138</td><td>7250469</td><td>MUHAMMAD NAJWAN BIN MOHD GHAZALI</td></tr>
+<tr><td>139</td><td>2240750</td><td>AHMAD LUQMAN BIN ROSLI</td></tr>
+<tr><td>140</td><td>7240100</td><td>PUTRI LYANA ATHIRAH BINTI MOHD NAZERIY</td></tr>
+<tr><td>141</td><td>2240204</td><td>MUHAMMAD AKMAL BIN MOHD HILMI</td></tr>
+<tr><td>142</td><td>2240951</td><td>MUHAMMAD ASHRUL BIN YUSRIZAM</td></tr>
+<tr><td>143</td><td>2240196</td><td>DANISH EMMIR BIN SAIFUL ZAHRY</td></tr>
+<tr><td>144</td><td>2240082</td><td>AZRYL ANNUAR BIN NORAMIN</td></tr>
+<tr><td>145</td><td>7240102</td><td>REENA JEYSRI KALAIARASAN</td></tr>
+<tr><td>146</td><td>2240788</td><td>AMAR HABIB AL-AJMI BIN HAMIDUN</td></tr>
+<tr><td>147</td><td>2230810</td><td>RANI HAZWANI BINTI HAFIZI</td></tr>
+<tr><td>148</td><td>2241076</td><td>NORLEN BINTI OTHMAN</td></tr>
+<tr><td>149</td><td>7240266</td><td>NURUL AMIRAH BINTI NORRIMI</td></tr>
+<tr><td>150</td><td>2240409</td><td>MUHAMMAD THAQIF DHIYAULHAQ BIN ZULHISHAM</td></tr>
+<tr><td>151</td><td>2240742</td><td>MUHAMMAD AFIQ BIN SALLEH</td></tr>
+<tr><td>152</td><td>2240554</td><td>MUHAMMAD IRFAN PUTRA BIN MUHAMMAD AZAMIN</td></tr>
+<tr><td>153</td><td>2240224</td><td>MUHAMMAD TAUFIQ BIN ROSDAN</td></tr>
+<tr><td>154</td><td>2240629</td><td>MUHAMMAD ALIF IMRAN BIN RASHID</td></tr>
+<tr><td>155</td><td>2241073</td><td>LAILATI BINTI MOHD</td></tr>
+<tr><td>156</td><td>2240232</td><td>AMIRA BINTI ASRI</td></tr>
+<tr><td>157</td><td>2241004</td><td>SUVANESH A/L PRAKESH</td></tr>
+<tr><td>158</td><td>2240487</td><td>SITI QISTINA SYAKIRAH BINTI NAZRON</td></tr>
+<tr><td>159</td><td>2230137</td><td>YAP HAO YANG</td></tr>
+<tr><td>160</td><td>2240755</td><td>MUHAMMAD IQBAL DANIAL BIN MOHD ZUKRI</td></tr>
+<tr><td>161</td><td>2240463</td><td>MUHAMMAD LUQMANUL HAKIM BIN AZMYE</td></tr>
+<tr><td>162</td><td>2230282</td><td>MUHAMMAD LUQMAN HAKIMI BIN MOHD RADZUAN</td></tr>
+<tr><td>163</td><td>2240470</td><td>MUHAMMAD SYAFIQ DANIAL BIN MOHD FAIZAL</td></tr>
+<tr><td>164</td><td>2240478</td><td>‘ARIFAH MAISARAH BINTI AHMAD SAFARUDDIN</td></tr>
+<tr><td>165</td><td>2240483</td><td>AIFA NUR AMANI BINTI SHAIDON</td></tr>
                         </tbody>
                     </table>
                 </div>
@@ -673,7 +533,7 @@
                 <i class="fas fa-info-circle"></i>
             </div>
             <h3>Pengambilan Keahlian Edisi ke-2 Telah Ditutup</h3>
-            <p>Permohonan keahlian edisi ke-2 untuk Kelab Badminton UPNM telah ditutup. Sila ikuti perkembangan kami untuk maklumat pembukaan permohonan pada sesi akan datang.</p>
+            <p>Permohonan keahlian edisi ke-2 Kelab Badminton UPNM telah ditutup. Sila ikuti perkembangan kami untuk maklumat pembukaan permohonan pada sesi akan datang.</p>
             <p>Terima kasih atas minat anda.</p>
         </div>
         <div class="announcement-footer">
@@ -682,7 +542,7 @@
     </div>
 </div>
 
-    <script src="script.js"></script>
+    <script src="scriptCalonMT.js"></script>
 
 <script>
 // Simple loading state test
